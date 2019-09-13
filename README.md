@@ -4,3 +4,5 @@ This program is based on the paper of Shiyang Wen and Xiaojun Wan, named Emotion
 
 The paper can be found:
 https://www.aaai.org/ocs/index.php/AAAI/AAAI14/paper/view/8209
+ 
+execute: python3 ./src/sentAnal.py
