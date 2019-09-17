@@ -7,7 +7,7 @@ def transform():
     val_path = "./sample_submission.csv"
 
     #Create new datasets only with
-    emos = ["empty", "neutral", "sadness", "surprise", "happiness", "anger"]
+    emos = ["empty", "sadness", "surprise", "happiness", "anger"]
 
     train_data = pd.read_csv(train_path, engine="python")
     #print(train_data.head())
