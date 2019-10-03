@@ -61,7 +61,7 @@ def CSR_apriori(S, minsup, minconf):
     k = 1
     while(F[k-1]):
         #Get k-candidates
-        cands.append(CARcandidate_gen(F[k-1],k))
+        cands.append(CSRcandidate_gen(F[k-1],k))
         #if no candidates were found break
         if not cands[k]:
             break
@@ -99,7 +99,7 @@ def CSR_apriori(S, minsup, minconf):
             tmp += v;
     return tmp
 
-def CARcandidate_gen(F, k):
+def CSRcandidate_gen(F, k):
     #cadidate generation function 
     c = list()
 

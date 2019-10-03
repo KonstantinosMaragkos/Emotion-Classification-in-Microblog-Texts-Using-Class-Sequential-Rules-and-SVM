@@ -30,7 +30,6 @@ def main():
     test_data = test_data.dropna(axis=0)
 
     #GET THE RAW FEATURES
-
     X = train_data.content
     Xtest = test_data.content
     #change the value of sentiment from string to int

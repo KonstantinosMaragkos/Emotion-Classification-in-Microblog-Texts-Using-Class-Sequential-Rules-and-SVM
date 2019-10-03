@@ -13,10 +13,10 @@ def transform():
     #print(train_data.head())
 
     test_data = pd.read_csv(test_path, engine="python")
-    print(test_data.head())
+    #print(test_data.head())
 
     val_data = pd.read_csv(val_path, engine="python")
-    print(val_data.head())
+    #print(val_data.head())
 
     tmp_sent = []
     tmp_cont = []
